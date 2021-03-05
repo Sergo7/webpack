@@ -1,14 +1,6 @@
-
-// index.js
-// создание свойства класса без конструктора
-class Game {
-    name = 'Violin Charades'
-}
-const myGame = new Game()
-
 // создаем параграф
 const p = document.createElement('p')
-p.textContent = `I like ${myGame.game}.`
+p.textContent = `I like $.`
 
 // создаем элемент заголовка
 const heading = document.createElement('h1')
